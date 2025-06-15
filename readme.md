@@ -30,6 +30,14 @@ O programa solicita ao usuário dois valores inteiros e a operação desejada. A
    ```bash
    ./calculadora
    ```
+4. Observação:
+   Caso ao tentar executar o programa e acontecer algum erro, execute novamente com o comando sudo na frente.
+   ```bash
+   sudo nasm -f elf32 calculadora.asm -o calculadora.o
+   ```
+   ```bash
+   sudo ld -m elf_i386 -o calculadora calculadora.o
+   ```
 
 ## Estrutura do código
 - **Entrada de dados:** Recebe dois números e a opção de operação.
@@ -40,5 +48,9 @@ O programa solicita ao usuário dois valores inteiros e a operação desejada. A
 - Apenas números inteiros são aceitos.
 - O código utiliza chamadas de sistema Linux (int 0x80).
 
-## Autor
-- Desenvolvido por Luana Yasmim
+## Autores
+- Desenvolvido por:
+   - Cícero Ricardo Farias de Lima Júnior
+   - Francielly de Oliveira Pires
+   - Luana Yasmim Lourenço Nogueira
+   - Luis Fernando Pedro Bom Pereira
