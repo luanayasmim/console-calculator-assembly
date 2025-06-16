@@ -52,5 +52,6 @@ O programa solicita ao usuário dois valores inteiros e a operação desejada. A
 - Desenvolvido por:
    - Cícero Ricardo Farias de Lima Júnior
    - Francielly de Oliveira Pires
+   - Kauã Santos Novaes
    - Luana Yasmim Lourenço Nogueira
    - Luis Fernando Pedro Bom Pereira
